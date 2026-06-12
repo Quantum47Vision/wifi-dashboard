@@ -1,10 +1,12 @@
 # 📶 Wi-Fi Performance Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
+
+## 📌 Overview
 A lightweight network monitoring dashboard built with Streamlit that helps diagnose Wi-Fi performance issues by tracking latency, jitter, and packet loss in real time.
 
 The application performs ping tests against Google's public DNS server (`8.8.8.8`), visualizes network metrics, and provides simple explanations for common connectivity problems.
@@ -28,11 +30,11 @@ The application performs ping tests against Google's public DNS server (`8.8.8.8
 
 ### Dashboard Overview
 
+> `screenshots/dashboard.png`
 ![Dashboard Screenshot](screenshots/dashboard.png)
 
-> Screenshot to:
->
-> `screenshots/dashboard.png`
+> `screenshots/dashboard1.png`
+![Dashboard Screenshot](screenshots/dashboard1.png)
 
 ---
 
@@ -105,15 +107,13 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run app.py
-
-python -m streamlit run app.py
 ```
 
 The dashboard will open automatically in your browser.
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 wifi-dashboard/
@@ -178,6 +178,14 @@ The dashboard then provides a basic diagnosis:
 
 ---
 
+## 🐳 Docker 
+
+```bash
+docker build -t wifi-dashboard .
+docker run -p 8501:8501 wifi-dashboard
+```
+---
+
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome.
@@ -199,6 +207,6 @@ See the `LICENSE` file for details.
 
 ## 👤 Author
 
-**2026 Quantum47Vision**
+**Quantum47Vision**
 
-Built with Python, Pandas, and Streamlit.
+Built with Python, Pandas, and Streamlit.>
