@@ -199,6 +199,6 @@ See the `LICENSE` file for details.
 
 ## 👤 Author
 
-**Daniel Tanasescu**
+**2026 Quantum47Vision**
 
 Built with Python, Pandas, and Streamlit.
